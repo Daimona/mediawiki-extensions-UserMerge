@@ -1,0 +1,17 @@
+version: "2"
+checks:
+  file-lines:
+    enabled: false
+  method-count:
+    config:
+      threshold: 75
+  method-lines:
+    config:
+      threshold: 250
+plugins:
+  phan:
+    enabled: true
+    config:
+      file_extensions: "php"
+      dead-code-detection: true
+    
