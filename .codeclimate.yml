@@ -14,4 +14,36 @@ plugins:
     config:
       file_extensions: "php"
       dead-code-detection: true
-    
+    checks:
+      PhanUndeclaredClassMethod:
+        enabled: false
+      PhanUndeclaredConstant:
+        enabled: false
+      PhanUndeclaredFunction:
+        enabled: false
+      PhanUndeclaredTypeParameter:
+        enabled: false
+      PhanUndeclaredClassConstant:
+        enabled: false
+      PhanUndeclaredExtendedClass:
+        enabled: false
+      PhanUnreferencedClass:
+        enabled: false
+      PhanUndeclaredMethod:
+        enabled: false
+      PhanUndeclaredTypeReturnType:
+        enabled: false
+      PhanUndeclaredTypeProperty:
+        enabled: false
+      PhanUnreferencedPublicMethod:
+        enabled: false
+      PhanUndeclaredProperty:
+        enabled: false
+      PhanUnreferencedClosure:
+        enabled: false
+      PhanUnreferencedProtectedMethod:
+        enabled: false
+      PhanUndeclaredClassInstanceof:
+        enabled: false
+      PhanUndeclaredClass:
+        enabled: false  
